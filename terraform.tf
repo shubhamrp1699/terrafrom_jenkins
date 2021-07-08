@@ -2,7 +2,7 @@ resource "aws_instance" "ec2demo" {
   ami           = "ami-011c99152163a87ae"
   instance_type = "t2.micro"
   tags = {
-    Name             = "ec2-terra"
+    Name             = "ec2-demo"
     Created_By       = "Terraform_Automation"
     Application_Name = "Terraform_Demo"
 
