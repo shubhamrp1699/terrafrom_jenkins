@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "igi010699" {
-  bucket = "ctl-devops-bucket-tf"
+  bucket = "igi010699"
   acl    = "public-read"
 
   tags = {
